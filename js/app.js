@@ -23,10 +23,14 @@ document.getElementById ("price-calc").addEventListener("click", function (){
     let discount = 0;
 
     if (selDOMElement.value === "0") {
-        discount = (basePrice * DISCOUNT_UNDER_18) * 100
+        discount = (basePrice * DISCOUNT_UNDER_18) / 100
         console.log("si applica lo sconto under 18")
     } else if (selDOMElement.value === "3") {
-        discount = (basePrice * DISCOUNT_OVER_65) * 100
+        discount = (basePrice * DISCOUNT_OVER_65) / 100
     }
+
+    let finalPrice = basePrice - discount;
+    console.log("finalPrice", finalPrice)
+
 
 })
