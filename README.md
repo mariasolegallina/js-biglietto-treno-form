@@ -12,7 +12,7 @@
     - ELSE IF il passeggero ha più di 65 anni:
         - applicare uno sconto del 40%
 
- 
+
 
 
 
@@ -28,6 +28,7 @@ Iniziamo implementando il programma senza alcuna estetica: usando esclusivamente
 Inizialmente la risposta finale (o output) sarà da scrivere in console.
 MILESTONE 2:
 Solo una volta che il milestone 1 sarà completo e funzionante allora realizzeremo un form in pagina in cui l’utente potrà inserire i dati e visualizzare il calcolo finale con il prezzo. Aggiungete anche un input per inserire il nome del passeggero. Il recap dei dati e l’output del prezzo finale, andranno quindi stampati in pagina (il prezzo dovrà essere formattato con massimo due decimali, per indicare i centesimi sul prezzo). Questo richiederà un minimo di ricerca.
+
 BONUS:
 Aggiungete dei controlli: impedite ad un utente di calcolare il prezzo se:
 il numero di km è NaN
