@@ -6,7 +6,7 @@
 - chiedere al passeggero l'età
 
 - calcolare il prezzo del biglietto:
-    - moltiplicare il numero dei km per la tariffa chilometrica
+    - calcolare il prezzo base moltiplicando il numero dei km per la tariffa chilometrica
     - IF il passeggero ha meno di 18 anni:
         - applicare uno sconto del 20%
     - ELSE IF il passeggero ha più di 65 anni:
