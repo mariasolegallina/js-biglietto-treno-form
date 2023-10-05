@@ -12,7 +12,7 @@
     - ELSE IF il passeggero ha più di 65 anni:
         - applicare uno sconto del 40%
 
-
+- premere il bottone per recuperare i dati
 
 
 
