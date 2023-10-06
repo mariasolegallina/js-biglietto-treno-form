@@ -32,5 +32,9 @@ document.getElementById ("price-calc").addEventListener("click", function (){
     let finalPrice = basePrice - discount;
     console.log("finalPrice", finalPrice)
 
-
+    // // -  stampare il prezzo
+    //stampare nella pagina il costo con max 2 decimali
+    const prezzoArrotondato = finalPrice.toFixed(2);
+    console.log(typeof prezzoArrotondato, prezzoArrotondato);
+    document.getElementById("ticket-price").innerHTML = prezzoArrotondato;
 })
